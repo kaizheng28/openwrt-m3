@@ -1,6 +1,16 @@
-This is not an official openwrt branch. Please do not contact the Kai Zheng (kaizheng28@gmail.com) if you have any questions.
+### OpenWRT for M3
 
-### Requirements
+This is an openwrt fork for the UCSD M3 project. The modified OS provides support for Mikrotik wAP 60Gx3 router. A python server file is also provided to control the 60GHz wil6210 firmware. 
+
+This is not an official openwrt branch. Please contact the Kai Zheng (kaizheng28@gmail.com) if you have any questions.
+
+### Flashing the Mikrotik router with OpenWRT-m3
+The compiled OpenWRT Image can be found in ... 
+TO BE UPDATED LATER. 
+
+### Compilation Requirement and Procedure
+
+To modify and re-compile OpenWRT, see the following procedure.
 
 You need the following tools to compile OpenWrt, the package names vary between
 distributions. A complete list with distribution specific packages is found in
@@ -11,8 +21,6 @@ documentation.
 binutils bzip2 diff find flex gawk gcc-6+ getopt grep install libc-dev libz-dev
 make4.1+ perl python3.7+ rsync subversion unzip which
 ```
-
-### Quickstart
 
 1. Run `./scripts/feeds update -a` to obtain all the latest package definitions
    defined in feeds.conf / feeds.conf.default
