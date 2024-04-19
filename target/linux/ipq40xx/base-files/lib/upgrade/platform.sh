@@ -184,6 +184,7 @@ platform_do_upgrade() {
 	mikrotik,hap-ac2|\
 	mikrotik,hap-ac3-lte6-kit|\
 	mikrotik,lhgg-60ad|\
+	mikrotik,wAPG-60ad|\
 	mikrotik,sxtsq-5-ac|\
 	mikrotik,wap-ac|\
 	mikrotik,wap-ac-lte|\

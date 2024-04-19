@@ -63,6 +63,14 @@ define Device/mikrotik_lhgg-60ad
 endef
 TARGET_DEVICES += mikrotik_lhgg-60ad
 
+define Device/mikrotik_wAPG-60ad
+	$(call Device/mikrotik_nor)
+	DEVICE_MODEL := Mikrotik wAP 60Gx3 AP
+	DEVICE_DTS := qcom-ipq4019-wAPG-60ad
+	DEVICE_PACKAGES += -kmod-ath10k-ct -ath10k-firmware-qca4019-ct kmod-wil6210
+endef
+TARGET_DEVICES += mikrotik_wAPG-60ad
+
 define Device/mikrotik_sxtsq-5-ac
 	$(call Device/mikrotik_nor)
 	DEVICE_MODEL := SXTsq 5 ac (RBSXTsqG-5acD)

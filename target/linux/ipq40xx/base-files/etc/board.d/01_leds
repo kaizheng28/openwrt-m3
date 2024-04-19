@@ -56,7 +56,8 @@ glinet,gl-ap1300)
 	ucidef_set_led_netdev "wan" "WAN" "white:wan" "wan"
 	;;
 glinet,gl-b1300 |\
-mikrotik,lhgg-60ad)
+mikrotik,lhgg-60ad |\
+mikrotik,wAPG-60ad)
 	ucidef_set_led_wlan "wlan" "WLAN" "green:wlan" "phy0tpt"
 	;;
 mikrotik,cap-ac)
