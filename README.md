@@ -1,17 +1,18 @@
 ### OpenWRT for M3
+This is an openwrt fork for the UCSD M3 project (http://m3.ucsd.edu/sdr/). M3 is the first mmWave massive MIMO software radio platform. 
 
-This is an openwrt fork for the UCSD M3 project. The modified OS provides support for Mikrotik wAP 60Gx3 router. A python server file is also provided to control the 60GHz wil6210 firmware. 
-
-This is not an official openwrt branch. Please contact the Kai Zheng (kaizheng28@gmail.com) if you have any questions.
+### Supported Devices
+[Mikrotik wAP 60G](https://mikrotik.com/product/wap_60g#fndtn-specifications)
+[Mikrotik wAP 60G AP](https://mikrotik.com/product/wap_60g_ap#fndtn-specifications)
+[Mikrotik wAP 60Gx3 AP](https://mikrotik.com/product/wap_60gx3_ap#fndtn-specifications)
+[Mikrotik Wireless Wire Dish](https://mikrotik.com/product/wireless_wire_dish#fndtn-specifications)
 
 ### Flashing the Mikrotik router with OpenWRT-m3
-The compiled OpenWRT Image can be found in ... 
-TO BE UPDATED LATER. 
+The compiled OpenWRT Image can be found in <>.
+A tutorial of how to flash the Mikrotik routers with OpenWRT can be found here.
+[IMDEA Networks](https://github.com/IMDEANetworksWNG/Mikrotik-researcher-tools)
 
-### Compilation Requirement and Procedure
-
-To modify and re-compile OpenWRT, see the following procedure.
-
+### Modification and Re-Complication
 You need the following tools to compile OpenWrt, the package names vary between
 distributions. A complete list with distribution specific packages is found in
 the [Build System Setup](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem)
