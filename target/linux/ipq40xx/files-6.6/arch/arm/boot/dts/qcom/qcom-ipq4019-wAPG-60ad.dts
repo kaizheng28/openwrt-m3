@@ -23,7 +23,7 @@
 
 / {
 	model = "Mikrotik wAP 60Gx3 AP";
-	compatible = "mikrotik,lhgg-60ad,wAPG-60ad";
+	compatible = "mikrotik,wAPG-60ad";
 
 	memory {
 		device_type = "memory";
